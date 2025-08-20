@@ -13,24 +13,30 @@ Install from TestPyPI:
 pip install --index-url https://test.pypi.org/simple/ adwaitha-hello
 ```
 
-Usage
+##Usage
+
 As a Python library
 
 from adwaitha_hello import hello
 
 print(hello())          # Output: hello, world
+
 print(hello("Alice"))   # Output: hello, Alice
 
 As a Command Line Tool
 
-# Default greeting
+## Default greeting
+
 adwaitha-hello
 
-# Greeting a specific person
+## Greeting a specific person
+
 adwaitha-hello Alice
 
 
 
-Project Details
+##Project Details
+
 Version: 0.1.0
+
 Author: Adwaitha P K
