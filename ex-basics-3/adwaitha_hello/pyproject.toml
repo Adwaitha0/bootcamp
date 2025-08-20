@@ -1,0 +1,16 @@
+[project]
+name = "adwaitha-hello"
+version = "0.2.0"
+description = "Demo: say hello to an argument or 'world' by default"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "rich>=14.1.0",
+    "typer>=0.16.1",
+]
+[project.scripts]
+adwaitha-hello = "adwaitha_hello.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.8.12,<0.9.0"]
+build-backend = "uv_build"
