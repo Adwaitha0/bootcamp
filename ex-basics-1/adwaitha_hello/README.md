@@ -13,7 +13,7 @@ Install from TestPyPI:
 pip install --index-url https://test.pypi.org/simple/ adwaitha-hello
 ```
 
-##Usage
+## Usage
 
 As a Python library
 
@@ -35,7 +35,7 @@ adwaitha-hello Alice
 
 
 
-##Project Details
+## Project Details
 
 Version: 0.1.0
 
